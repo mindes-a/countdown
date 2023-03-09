@@ -28,7 +28,7 @@ function showCountdown() {
    var dnumNow = nowDate.getTime();
  
    // 指定日時を数値(1970-01-01 00:00:00からのミリ秒)に変換
-   var inputYear  = 2022;
+   var inputYear  = 2025;
    var inputMonth = 3 - 1;
    var inputDate  = 24;
    var inputHour  = 9;
