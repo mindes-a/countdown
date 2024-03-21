@@ -1,4 +1,4 @@
- alert("Minedsのサービス、卒業までのカウントダウンをご利用いただきありがとうございます。\nほかの作品などもありますのでこちらからご覧ください。\nカウントダウンは、卒業式（３月２４日）までの日までの日にちを計算して求めています\n参考\n２日前になるとある演出が起きます！！\n裏使用も更新しました！！")
+ alert("Minedsのサービス、卒業までのカウントダウンをご利用いただきありがとうございます。\nほかの作品などもありますのでこちらからご覧ください。\nカウントダウンは、卒業式（３月２４日）までの日までの日にちを計算して求めています\n参考\n２日前になるとある演出が起きます！！\n裏使用も更新しました！！(2024/3/21)")
  const btnbtn = document.getElementById("RealtimeCountdownArea");
  let count = 0;
 
@@ -30,9 +30,9 @@ function showCountdown() {
    // 指定日時を数値(1970-01-01 00:00:00からのミリ秒)に変換
    var inputYear  = 2025;
    var inputMonth = 3 - 1;
-   var inputDate  = 24;
+   var inputDate  = 19;
    var inputHour  = 9;
-   var inputMin   = 00;
+   var inputMin   = 50;
    var inputSec   = 00;
    var targetDate = new Date( isNumOrZero(inputYear), isNumOrZero(inputMonth), isNumOrZero(inputDate), isNumOrZero(inputHour), isNumOrZero(inputMin), isNumOrZero(inputSec) );
    var dnumTarget = targetDate.getTime();
